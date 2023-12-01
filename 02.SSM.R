@@ -35,6 +35,6 @@ cut1<-crop(after[[16]], ext)
 plot(cut1, col=c)
 
 
-par(mfrow=c(2,1))
-plot(cut, col=c)
-plot(cut1, col=c)
+par(mfrow=c(1,2))
+plot(cut, col=c, main="31/10/2023")
+plot(cut1, col=c, main= "04/11/2023")
